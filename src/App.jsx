@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { ragGenerator } from './hooks/ragGenerator'
-import FileUploader from './components/FileUploader'
 const App = () => {
     const [response,setResponse]=useState("")
     const [request,setRequest]=useState({question:"",url:""})
